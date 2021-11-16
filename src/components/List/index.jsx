@@ -1,5 +1,4 @@
 import './styles.css';
-import arrowDown from '../../assets/arrowdown.png';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -7,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function List({listItems}) {
-  console.log(listItems);
   return (
     <div className="List">
         { listItems.length === 0 && (
